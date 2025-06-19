@@ -1,0 +1,2 @@
+http://example.com|||sessionid=abc123
+http://test.com/api|||token=xyz789
