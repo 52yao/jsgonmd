@@ -1,0 +1,4 @@
+requests
+urllib3>=1.26.0
+colorama>=0.4.4
+tqdm>=4.60.0
