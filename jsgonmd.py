@@ -273,7 +273,8 @@ def process_url(url, cookie, depth=0, whitelist=None, blacklist=None):
     if whitelist and domain not in whitelist:
         logger.info(f"跳过非白名单域名: {domain}")
         return
-    if blacklist and domain in blacklist:
+    # if blacklist and domain in blacklist:
+    if blacklist and any(domain == b or domain.endswith('.' + b) for b in blacklist):
         logger.info(f"跳过黑名单域名: {domain}")
         return
 
