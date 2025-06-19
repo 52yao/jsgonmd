@@ -1,0 +1,12 @@
+baidu.com
+bdstatic.com
+w3.org
+google.com
+googletagmanager.com
+googlesyndication.com
+facebook.com
+facebook.net
+doubleclick.net
+youtube.com
+github.com
+qq.com
